@@ -58,6 +58,7 @@ header{
         left: 150px;
         width: 32px;
         height: 32px;
+        z-index: 3;
     }
     
     #conteudo-header{
@@ -70,6 +71,7 @@ header{
         height: 100%;
         align-items: flex-start;
         transition: 1s;
+        z-index: 2;
     }
 
   
