@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color:#FFF2E3 ;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer h1{
+    font-size: 24px;
+}
+
+footer h2{
+    font-size: 16px;
+}
+
+#conteudo-footer{
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#conteudo-footer div{
+    width: 250px;
+    margin-left: 1%
+}
+
+
+#div-redesSociais img{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+#div-redesSociais h2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
