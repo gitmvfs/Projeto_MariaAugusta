@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center
+
+
+}
+
+main h1{
+    font-family: 'Cinzel', serif;
+    color: #8F0002;
+}
+
+main h4{
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+}
+
+#apresentacao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+
+/*  SLide show */
+
+#slideShow{
+    width: 950px;
+    height: 640px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+    flex-direction: row;
+}
+
+.s1{
+    transition: 600ms;
+    animation: slideSHow 9s infinite;
+
+}
+
+.slide-imagem{
+    width: 950px;
+    height: 640px;
+}
+
+.slide-imagem img{
+    width: 950px;
+    height: 640px;
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.btnTrocarImg{
+    width: 20px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.btnTrocarImg:hover{
+    background-color: rgba(128, 128, 128, 0.593);
+}
+
+.slides input{
+    display: none;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -950px;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -1900px;
+}
+
+
+@media only screen and (max-width: 940px){
+    
+    #apresentacao{
+        width: 80%;
+    }
+    
+    nav{
+        top: -60px;
+    }
+    .slide-imagem{
+        height: 45vh;
+        width: 90vw;
+    }
+    
+    .slide-imagem img{
+        height: 45vh;
+        width: 90vw;
+    }
+   
+    #slideShow{
+        height: 45vh;
+        width: 90vw;
+        border-radius: 8px;
+    }
+    
+
+    #slide1:checked ~ .s1{
+        margin-left: 0;
+    }
+    
+    #slide2:checked ~ .s1{
+        margin-left: -90vw;
+    }
+    
+    #slide3:checked ~ .s1{
+        margin-left: -180vw;
+    }
+
+}
