@@ -109,7 +109,7 @@ main img:hover{
     flex-direction: row;
     margin-top: 100px;
     height: 400px;
-    margin-bottom: calc(10vh + 400px );
+    margin-bottom: calc(10vh + 200px );
 }
 
 #conteudo-slideShow{
@@ -277,5 +277,6 @@ color: #8f0002a7;
 
     #conteudo-slideShow p{
         width: 70vw;
+        font-size: 14px;
     }
 }
