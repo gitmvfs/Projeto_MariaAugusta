@@ -7,6 +7,7 @@ footer{
     font-family: 'Inter';
     display: flex;
     flex-direction: column;
+    height: 120px;
 }
 
 
@@ -45,5 +46,9 @@ footer h4{
     flex-direction: row;
     justify-content: center;
     text-decoration: none;
+}
+
+footer div{
+    background-color:#FFF2E3 ;
 }
 
