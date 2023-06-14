@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 #localizacao{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #localizacao h2{
@@ -14,11 +14,12 @@
 #localizacao iframe{
     width: 50vw;
     height: 55vh;
+    border-radius: 8px;
 }
 
 @media only screen and (max-width: 900px){
     #localizacao iframe{
         width: 50vw;
-        height: 35vh;
+        height: 15vh;
     }
 }

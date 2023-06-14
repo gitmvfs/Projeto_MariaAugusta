@@ -20,7 +20,8 @@ main h1{
 }
 
 main h4{
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
 }
 
 #apresentacao{
@@ -32,6 +33,7 @@ main h4{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 
 }
 
@@ -39,9 +41,9 @@ main h4{
 /*  SLide show */
 
 #slideShow{
-    width: 50vw;
-    height: 75vh;
-    border-radius: 20px;
+    width: 686px;
+    height: 857px;
+    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -57,13 +59,14 @@ main h4{
 }
 
 .slide-imagem{
-    width: 50vw;
-    height: 75vh;
+    width: 686px;
+    height: 857px;
 }
 
 .slide-imagem img{
-    width: 50vw;
-    height: 75vh;
+    width: 686px;
+    height: 857px;
+    z-index: -1;
 }
 
 nav{
@@ -71,16 +74,15 @@ nav{
     flex-direction: row;
     justify-content: center;
     position: relative;
-    z-index: 1;
-    top: -90px;
+    top: -40px;
 }
 
 .btnTrocarImg{
-    width: 70px;
+    width: 20px;
     height: 17px;
     border: 2px solid white;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: 500ms;
 }
@@ -98,55 +100,13 @@ nav{
 }
 
 #slide2:checked ~ .s1{
-    margin-left: -50vw;
+    margin-left: -686px;
 }
 
 #slide3:checked ~ .s1{
-    margin-left: -100vw;
+    margin-left: -1372px;
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 1440px){
-    
-    #apresentacao{
-        width: 70%;
-    }
-    
-    .slide-imagem{
-        height: 55vh;
-        width: 66vw;
-    }
-    
-    .slide-imagem img{
-        height: 55vh;
-        width: 66vw;
-    }
-   
-    #slideShow{
-        height: 55vh;
-        width: 66vw;
-        border-radius: 0;
-    }
-    
-
-    #slide1:checked ~ .s1{
-        margin-left: 0;
-    }
-    
-    #slide2:checked ~ .s1{
-        margin-left: -66vw;
-    }
-    
-    #slide3:checked ~ .s1{
-        margin-left: -132vw;
-    }
-
-}
 
 @media only screen and (max-width: 940px){
     
@@ -167,7 +127,7 @@ nav{
     #slideShow{
         height: 33vh;
         width: 50vw;
-        border-radius: 0;
+        border-radius: 8px;
     }
     
 
@@ -184,4 +144,3 @@ nav{
     }
 
 }
-
