@@ -96,7 +96,7 @@ main img:hover{
 
 #sobreNos_img4{
     position: absolute;
-    left: 40px;
+    left: 34px;
     top: 140px;
 }
 
@@ -264,7 +264,7 @@ color: #8f0002a7;
     .foto-sobreNos,.foto-sobreNos2{
         width: 340px;
         position: relative;
-        left: calc(50%  - 150px);
+        left: calc(50%  - 160px);
         margin-bottom: 50px;
     }
 
