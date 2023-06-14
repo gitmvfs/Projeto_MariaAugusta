@@ -111,22 +111,22 @@ nav{
 @media only screen and (max-width: 940px){
     
     #apresentacao{
-        width: 50%;
+        width: 80%;
     }
     
     .slide-imagem{
-        height: 33vh;
-        width: 50vw;
+        height: 45vh;
+        width: 90vw;
     }
     
     .slide-imagem img{
-        height: 33vh;
-        width: 50vw;
+        height: 45vh;
+        width: 90vw;
     }
    
     #slideShow{
-        height: 33vh;
-        width: 50vw;
+        height: 45vh;
+        width: 90vw;
         border-radius: 8px;
     }
     
@@ -136,11 +136,11 @@ nav{
     }
     
     #slide2:checked ~ .s1{
-        margin-left: -50vw;
+        margin-left: -90vw;
     }
     
     #slide3:checked ~ .s1{
-        margin-left: -100vw;
+        margin-left: -180vw;
     }
 
 }
