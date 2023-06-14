@@ -45,5 +45,8 @@
     flex-wrap: wrap;
 }
 
+#conteudo-horario div{
+    margin-left: 20px;
+}
 
 }
