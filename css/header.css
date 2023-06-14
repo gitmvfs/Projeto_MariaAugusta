@@ -52,13 +52,10 @@ header{
     header{
         justify-content: flex-start;
     }
-   #div-logo{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-   }
+ 
    #logo{
-    position: relative;
+    position: absolute;
+    left: calc(50vw - 116px + 48px);
 
    }
 
