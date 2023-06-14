@@ -103,12 +103,13 @@ main img:hover{
 /* SlideShow */
 
 #slideShow{
-    width: 438px;
+    width: 70vw;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    margin-bottom: 400px;
+    height: 400px;
+    margin-bottom: calc(10vh + 400px );
 }
 
 #conteudo-slideShow{
@@ -117,11 +118,12 @@ main img:hover{
     align-items: center;
     position: absolute;
     visibility: hidden;
+    left: calc(70vw - 40vw);
 }
 
 #conteudo-slideShow img{
-    width: 72px;
-    height: 72px;
+    width: 144px;
+    height: 144px;
     border: 40px;
 
 }
@@ -133,7 +135,8 @@ color: #8f0002a7;
 #conteudo-slideShow p{
     font-family: 'Inter',sans-serif;
     font-weight: 300;
-    width: calc(438px + 40px);
+    font-size: 24px;
+    width: calc(40vw + 40px);
     text-align: center;
     line-height: 1.8em;
 
@@ -259,10 +262,20 @@ color: #8f0002a7;
         width: 100%;
     }
     .foto-sobreNos,.foto-sobreNos2{
+        width: 360px;
         position: relative;
         left: calc(50%  - 150px);
         margin-bottom: 50px;
     }
 
-    
+    #slideShow{
+        width: 100vw;
+    }
+    #conteudo-slideShow{
+        left: calc(35vw - 15vw)
+    }
+
+    #conteudo-slideShow p{
+        width: 70vw;
+    }
 }
