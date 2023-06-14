@@ -76,9 +76,8 @@ main img:hover{
     font-weight: 300;
     line-height: 2.0em;
     margin-left: 35%;
+    
 }
-
-
 
 #div-sobreNos2{
     width: 50%;
@@ -101,9 +100,150 @@ main img:hover{
     top: 140px;
 }
 
+/* SlideShow */
 
+#slideShow{
+    width: 438px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
+#conteudo-slideShow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    visibility: hidden;
+}
+
+#conteudo-slideShow img{
+    width: 72px;
+    height: 72px;
+    border: 40px;
+
+}
+
+#conteudo-slideShow h1{
+color: #8f0002a7;
+}
+
+#conteudo-slideShow p{
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+    width: calc(438px + 40px);
+    text-align: center;
+    line-height: 1.8em;
+
+}
+
+/* Gambiarra do slideShow */
+
+.sobreNos_img1{animation: gambiarra1 40s infinite;}
+.sobreNos_img2{animation: gambiarra2 40s infinite;}
+.sobreNos_img3{animation: gambiarra3 40s infinite;}
+.sobreNos_img4{animation: gambiarra4 40s infinite;}
+.sobreNos_img5{animation: gambiarra5 40s infinite;}
+.sobreNos_img6{animation: gambiarra6 40s infinite;}
+.sobreNos_img7{animation: gambiarra7 40s infinite;}
+.sobreNos_img8{animation: gambiarra8 40s infinite;}
+
+
+@keyframes gambiarra1{
+    0%{ visibility: visible;}    
+    11.0%{opacity: 100%;}
+    12.5% {opacity: 0%;
+        visibility: hidden;}
+    98.5%{opacity: 0%;
+        visibility:visible}
+    100%{opacity: 100%;}
+}
+
+@keyframes gambiarra2{
+    10.9%{visibility: hidden;}
+    11%{opacity: 0%;
+        visibility: visible;}
+    12.5%{opacity: 100%; }    
+   
+    23.5%{opacity: 100%;  }
+    25.0% {opacity: 0%;
+        visibility: hidden;}
+}
+
+@keyframes gambiarra3{
+    23.4%{visibility: hidden;}
+    23.5%{opacity: 0%;
+            visibility: visible;}
+    25.0%{opacity: 100%; }    
+   
+    36.0%{opacity: 100%;  }
+    37.5% {opacity: 0%;
+        visibility: hidden;}
+}
+
+@keyframes gambiarra4{
+    35.9%{visibility: hidden;}
+    36.0%{opacity: 0%;
+            visibility: visible;}
+    37.5%{opacity: 100%; }    
+   
+    48.5%{opacity: 100%;  }
+    50.0% {opacity: 0%;
+        visibility: hidden;}
+}
+
+@keyframes gambiarra5{
+    48.4%{visibility: hidden;}
+    48.5%{opacity: 0%;
+            visibility: visible;}
+    50.0%{opacity: 100%; }    
+   
+    61.0%{opacity: 100%;  }
+    62.5% {opacity: 0%;
+        visibility: hidden;}
+}
+
+@keyframes gambiarra6{
+    60.9%{visibility: hidden;}
+    61.0%{opacity: 0%;
+            visibility: visible;}
+    62.5%{opacity: 100%; }    
+   
+    73.5%{opacity: 100%;  }
+    75.0% {opacity: 0%;
+        visibility: hidden;}
+}
+
+@keyframes gambiarra7{
+    73.4%{visibility: hidden;}
+    73.5%{opacity: 0%;
+            visibility: visible;}
+    75.0%{opacity: 100%; }    
+   
+    86.0%{opacity: 100%;  }
+    87.5% {opacity: 0%;
+        visibility: hidden;}
+}
+
+@keyframes gambiarra8{
+    85.9%{visibility: hidden;}
+    86.0%{opacity: 0%;
+            visibility: visible;}
+    87.5%{opacity: 100%; }    
+   
+    98.5%{opacity: 100%;  }
+    100% {opacity: 0%;
+        visibility: hidden;}
+}
 @media only screen and (max-width: 1000px){
     
+
+    #apresentacao{
+        width: 100%;
+    }
+
     #div-sobreNos p , #div-sobreNos2 p{
     margin-left: 15%;
     margin-right: 15%;
