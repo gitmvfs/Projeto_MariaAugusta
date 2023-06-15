@@ -49,6 +49,13 @@ main h2, main p , main span{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.conteudo-cardapio:hover{
+    background-color: rgba(0, 0, 0, 0.100);
 }
 
 .conteudo-cardapio img{
