@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/cardapio.css">
-    <link rel="stylesheet" href="css/localizacao.css">
+    <link rel="stylesheet" href="css/reserva.css">
     <link rel="stylesheet" href="css/horario.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Document</title>
@@ -41,72 +40,45 @@
 
     <div id="apresentacao">
 
-        <h1>"CARDÁPIO"</h1>
-</div>
-
-    <div id="div-cardapio">
-
-        <div class="conteudo-cardapio">
-            <div>
-                <h2>Soda italiana</h2>
-             <p>
-                Soda italiana uma opção de drink sem álcool refrescante.
-                Sabores: Frutas vermelhas, Menta, Limão e Lima
-             </p>
-            </div>
-            
-             <span>R$ 19,90</span>
-            </div>
-
-        <div class="conteudo-cardapio">
-            <div>
-                <h2>Brasileirinho</h2>
-                <p>
-                uma opção vegetariana servida com arroz integral, legumes assados e feijão carioca.
-                </p>
-            </div>
-            
-                <span>R$ 34,90</span>
-        </div>
-
-        <div class="conteudo-cardapio">
-            <div>
-                <h2>Risotto de espinafre</h2>
-                <p>
-                O risotto de espinafre servido com filé de frango e cenoura raladinha
-                </p>
-            </div>
-            
-                <span>R$ 44,90</span>
-            </div>
-
-        <div class="conteudo-cardapio">
-            <div>
-                <h2>Bolinho de queijo vegetariano (12un.)</h2>
-                <p>
-                feito artesanalmente com caldo de legumes na massa e recheio de queijo bem fresquinho.
-                </p>
-            </div>
-                        
-                         <span>R$ 59,90</span>
-        </div>
-
-
-        <div class="conteudo-cardapio">
-            <div>
-                <h2>Picanha</h2>
-                <p>
-                São 4 fatias de picanha(150 gramas cada) grelhadas, acompanha arroz e batata frita
-                </p>
-            </div>
-            
-                <span>R$ 129,90</span>
-        </div>
+        <h1>"A TODAS AS MARIAS"</h1>
+        <h4>A proposta do Maria Augusta RestoBar é ser um Restaurante Bar aconchegante e informal, agradável e despojado, reconhecido e acessível, de maneira a unir os lados da mesma rua para todos os públicos democraticamente. </h4>        
     </div>
-  </main>
 
+
+    <div id="slideShow">
+            
+        <div class="slides">
         
-  
+            <input type="radio" name="slide" id="slide1">
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+
+            <div class="slide-imagem s1">
+                <img src="imagens/home-slideShow/home_1.png" alt="">
+            </div>
+
+            <div class="slide-imagem">
+                <img src="imagens/home-slideShow/home_2.jpg" alt="">
+            </div>
+            
+            <div class="slide-imagem">
+                <img src="imagens/home-slideShow/home_3.png" alt="">
+            </div>
+                
+       
+        </div>
+        <nav> 
+            <label class="btnTrocarImg" for="slide1"></label>
+            <label class="btnTrocarImg" for="slide2"></label>
+            <label class="btnTrocarImg" for="slide3"></label>
+        </nav>
+    </div>
+
+    <div id="localizacao">
+        <h2>Localização</h2>
+
+        <iframe loading="lazy" frameborder="0" scrolling="no"  src="https://maps.google.com/maps?q=Maria%20Augusta%20RestoBar&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" data-opt-src="about:blank" title="Maria Augusta RestoBar" aria-label="Maria Augusta RestoBar" data-rocket-lazyload="fitvidscompatible" data-opt-lazy-loaded="true" class="lazyloaded" data-ll-status="loaded"></iframe>
+    </div>
 
 
     <div id="horario">
@@ -149,8 +121,9 @@
     
     </div>
 
-
 </main>
+
+
 
 
 <footer>
@@ -181,8 +154,6 @@
     </div>
 
 </footer>
-
-
 
 
 </body>

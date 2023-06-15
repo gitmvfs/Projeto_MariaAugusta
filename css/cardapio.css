@@ -39,13 +39,13 @@ main h2, main p , main span{
 #div-cardapio{
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin-top: 50px;
 
 }
 
 
 .conteudo-cardapio{
+    width: max-content;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -80,7 +80,38 @@ main h2, main p , main span{
 
 .conteudo-cardapio span{
     font-weight: bold;
-    margin-left: 200px;
-    width: 200px;
+    margin-left: 15vw;
+    width: fit-content;
     font-size: 32px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    #div-cardapio{
+        width: 100%;
+    }
+
+    .conteudo-cardapio{
+        padding: 0;
+    }
+
+    .conteudo-cardapio span{
+        font-size: 18px;
+    }
+    .conteudo-cardapio h2{
+        font-size: 24px;
+        width: 65vw;
+        margin: 0;
+        margin-bottom: 25px;
+        margin-top: 25px;
+
+    }
+
+    .conteudo-cardapio p{
+        width: 70vw;
+        margin: 0;
+    }
+
+
+
 }
