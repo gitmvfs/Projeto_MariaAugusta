@@ -39,8 +39,6 @@ main h2, main p , main span{
 #div-cardapio{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-
 }
 
 
@@ -85,6 +83,11 @@ main h2, main p , main span{
     font-size: 32px;
 }
 
+.item1{
+    margin-top: 0;
+}
+
+
 @media only screen and (max-width: 1024px){
 
     #div-cardapio{
@@ -93,7 +96,9 @@ main h2, main p , main span{
     }
 
     .conteudo-cardapio{
-        padding: 0;
+        padding: 10px;
+        margin-top: 25px;
+
     }
 
     .conteudo-cardapio span{
@@ -105,7 +110,6 @@ main h2, main p , main span{
         width: 65vw;
         margin: 0;
         margin-bottom: 25px;
-        margin-top: 25px;
 
     }
 
@@ -114,6 +118,5 @@ main h2, main p , main span{
         margin: 0;
     }
 
-
-
+    
 }

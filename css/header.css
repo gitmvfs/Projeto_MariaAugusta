@@ -29,7 +29,7 @@ header{
 
 #logo{
     height: 72px;
-    width: 116px;
+    width: 100px;
     cursor: pointer;}
 
 .header-link{
@@ -40,6 +40,10 @@ header{
     padding: 5px;
     border-radius: 8px;
     font-weight: 500;
+}
+
+#conteudo-header a{
+    transition: 0.5s;
 }
 
 .header-link:hover{
@@ -89,6 +93,7 @@ header{
         align-items: flex-start;
         transition: 1s;
         z-index: 1;
+        
     }
 
   
