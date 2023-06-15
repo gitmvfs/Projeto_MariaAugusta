@@ -89,6 +89,7 @@ main h2, main p , main span{
 
     #div-cardapio{
         width: 80%;
+        margin-right: 10%;
     }
 
     .conteudo-cardapio{
