@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center
+
+
+}
+
+main h1{
+    font-family: 'Cinzel', serif;
+    color: #8F0002;
+}
+
+main h4{
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+}
+
+#apresentacao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+#div-reserva{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter',sans-serif;
+}
+
+#div-reserva div{
+    width: 80%;
+}
+
+#div-reserva form{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+#div-reserva label{
+    color: #8f0002e1;
+    font-weight: bold;
+    margin: 10px 0 2px 4px;
+}
+#div-reserva input[type ='text']{
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#div-reserva select{
+    width: 325px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#div-reserva select option{
+    cursor: pointer;
+}
+
+#div-reserva textarea{
+    width: 320px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+}
+
+#div-reserva input[type = 'submit']{
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #8F0002;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    #div-reserva{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conteudo-reserva-1{
+        display: none;
+    }
+}

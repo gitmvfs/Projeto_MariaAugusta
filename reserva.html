@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/reserva.css">
+    <link rel="stylesheet" href="css/localizacao.css">
     <link rel="stylesheet" href="css/horario.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Document</title>
@@ -40,38 +41,44 @@
 
     <div id="apresentacao">
 
-        <h1>"A TODAS AS MARIAS"</h1>
-        <h4>A proposta do Maria Augusta RestoBar é ser um Restaurante Bar aconchegante e informal, agradável e despojado, reconhecido e acessível, de maneira a unir os lados da mesma rua para todos os públicos democraticamente. </h4>        
+        <h1>"RESERVA"</h1>
     </div>
 
 
-    <div id="slideShow">
-            
-        <div class="slides">
-        
-            <input type="radio" name="slide" id="slide1">
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-
-            <div class="slide-imagem s1">
-                <img src="imagens/home-slideShow/home_1.png" alt="">
-            </div>
-
-            <div class="slide-imagem">
-                <img src="imagens/home-slideShow/home_2.jpg" alt="">
-            </div>
-            
-            <div class="slide-imagem">
-                <img src="imagens/home-slideShow/home_3.png" alt="">
-            </div>
-                
-       
+    <div id="div-reserva">
+        <div id="conteudo-reserva-1">
+            <p>Entre em contato com nosso atendimento para reservas, aniversários, eventos, dúvidas e sugestões</p>
+            <p>E-mail: mariaaugustarestobar@gmail.com.br      ( Confirmar reserva por telefone)</p>
+            <p>Telefone: (11) 2614-9152</p>
+            <p>Endereço: R. Augusta, 2147  Cerqueira César, 01413-000</p>
         </div>
-        <nav> 
-            <label class="btnTrocarImg" for="slide1"></label>
-            <label class="btnTrocarImg" for="slide2"></label>
-            <label class="btnTrocarImg" for="slide3"></label>
-        </nav>
+        <div>
+            <form action="reserva.html">
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                
+                <label for="email">Email</label>
+                <input type="text" id="email">
+
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option value="agenda_aniversario">Agendar Aniversário</option>
+                    <option value="agenda_show">Agendar Show</option>
+                    <option value="reserva_mesa">Reservar Mesa</option>
+                    <option value="reserva_salao">Reservar Salão</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outros">Outro assunto</option>
+                </select>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" style="resize: none;"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
     </div>
 
     <div id="localizacao">
