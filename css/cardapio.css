@@ -88,7 +88,7 @@ main h2, main p , main span{
 @media only screen and (max-width: 1024px){
 
     #div-cardapio{
-        width: 90%;
+        width: 80%;
     }
 
     .conteudo-cardapio{
@@ -109,7 +109,7 @@ main h2, main p , main span{
     }
 
     .conteudo-cardapio p{
-        width: 70vw;
+        width: 65vw;
         margin: 0;
     }
 
