@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center
+
+
+}
+
+main h1{
+    font-family: 'Cinzel', sans-serif;
+    color: #8F0002;
+}
+
+#apresentacao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+main h2, main p , main span{
+    font-family: 'Inter',sans-serif;
+}
+
+#div-cardapio{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+
+.conteudo-cardapio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.conteudo-cardapio img{
+    width: 120px;
+    height: 140px;
+    border: 3px solid #8F0002;
+}
+
+.conteudo-cardapio h2{
+    color: #8f0002c0;
+    margin-left: 5px;
+    font-size: 32px;
+    width: 400px;
+}
+
+
+
+.conteudo-cardapio p{
+    width: 400px;
+    font-weight: bold;
+}
+
+.conteudo-cardapio span{
+    font-weight: bold;
+    margin-left: 200px;
+    width: 200px;
+    font-size: 32px;
+}
