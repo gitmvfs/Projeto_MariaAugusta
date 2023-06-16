@@ -38,75 +38,63 @@ main h4{
 }
 
 
-/*  SLide show */
 
-#slideShow{
-    width: 686px;
-    height: 857px;
-    border-radius: 8px;
+
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 10vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
+    border: 7px solid black;
+    margin-top: 35px;
+}
+
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
     overflow: hidden;
+    margin-top: 1px;
 }
 
-.slides{
+.item {
+    width: 50vw;
+    height: 50vh;
+    transition: all 1s;
+}
+.item:first-child{
+    margin-left: -100%;
+}
+
+.item img {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.action-button {
+    font: bold 30px sans-serif;
     display: flex;
-    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    z-index: 1;
 }
-
-.s1{
-    transition: 600ms;
-    animation: slideSHow 9s infinite;
-
-}
-
-.slide-imagem{
-    width: 686px;
-    height: 857px;
-}
-
-.slide-imagem img{
-    width: 686px;
-    height: 857px;
-    z-index: -1;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    top: -40px;
-}
-
-.btnTrocarImg{
-    width: 20px;
-    height: 17px;
-    border: 2px solid white;
-    margin: 10px;
-    border-radius: 20px;
+.action-button:hover {
+    color: white;
+    background-color: #00000055;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 500ms;
+    transition: all 1s;
 }
-
-.btnTrocarImg:hover{
-    background-color: rgba(128, 128, 128, 0.593);
-}
-
-.slides input{
-    display: none;
-}
-
-#slide1:checked ~ .s1{
-    margin-left: 0;
-}
-
-#slide2:checked ~ .s1{
-    margin-left: -686px;
-}
-
-#slide3:checked ~ .s1{
-    margin-left: -1372px;
-}
-
 
 @media only screen and (max-width: 940px){
     
