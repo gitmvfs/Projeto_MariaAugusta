@@ -48,35 +48,12 @@
         
     </div>
 
-
-    <div id="slideShow">
-            
-        <div class="slides">
-        
-            <input type="radio" name="slide" id="slide1">
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-
-            <div class="slide-imagem s1">
-                <img src="imagens/apresentacao-slideShow/Apresentacao_1.jpg" alt="">
-            </div>
-
-            <div class="slide-imagem">
-                <img src="imagens/apresentacao-slideShow/Apresentacao_2.webp" alt="">
-            </div>
-            
-            <div class="slide-imagem">
-                <img src="imagens/apresentacao-slideShow/Apresentacao_3.webp" alt="">
-            </div>
-                
-       
-        </div>
-        <nav> 
-            <label class="btnTrocarImg" for="slide1"></label>
-            <label class="btnTrocarImg" for="slide2"></label>
-            <label class="btnTrocarImg" for="slide3"></label>
-        </nav>
+    <div class="container-slide">
+        <div class="action-button" id="next">&laquo;</div>
+        <div class="container-items" id="container-items"></div>
+        <div class="action-button" id="previous">&raquo;</div>
     </div>
+    
 
     <div id="localizacao">
         <h2>Localização</h2>
@@ -162,5 +139,6 @@
 
 </body>
 <script src="script/header.js"></script>
+<script src="script/carousel_ambiente.js"></script>
 
 </html>
