@@ -1,7 +1,7 @@
 const images = [
-    { 'id': '2', 'url':'imagens/apresentacao-slideShow/apresentacao_1.jpg', },
-    { 'id': '1', 'url':'imagens/apresentacao-slideShow/apresentacao_2.webp', },
-    { 'id': '3', 'url':'imagens/apresentacao-slideShow/apresentacao_3.webp', },
+    { 'id': '2', 'url':'/imagens/apresentacao-slideShow/apresentacao_1.jpg', },
+    { 'id': '1', 'url':'/imagens/apresentacao-slideShow/apresentacao_2.webp', },
+    { 'id': '3', 'url':'/imagens/apresentacao-slideShow/apresentacao_3.webp', },
 ]
 
 const containerItems = document.querySelector('#container-items');
