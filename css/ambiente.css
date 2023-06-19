@@ -95,42 +95,29 @@ main h4{
 }
 
 
-@media only screen and (max-width: 940px){
-    
-    #apresentacao{
-        width: 80%;
-    }
-    
-    nav{
-        top: -60px;
-    }
-    .slide-imagem{
-        height: 45vh;
-        width: 90vw;
-    }
-    
-    .slide-imagem img{
-        height: 45vh;
-        width: 90vw;
-    }
-   
-    #slideShow{
-        height: 45vh;
-        width: 90vw;
-        border-radius: 8px;
-    }
-    
+@media only screen and (max-width: 800px){
 
-    #slide1:checked ~ .s1{
-        margin-left: 0;
+    .container-slide{
+        width: 100vw;
+        height: 50vh;
+      
     }
     
-    #slide2:checked ~ .s1{
-        margin-left: -90vw;
+    .container-items {
+        width: 100vw;
+        height: 50vh;
     }
     
-    #slide3:checked ~ .s1{
-        margin-left: -180vw;
+    .item {
+        width: 100vw;
+        height: 50vh;
+    }
+    .item:first-child{
+        margin-left: -100%;
     }
 
+    .item img {
+        width: 100vw;
+        height: 50vh;
+    }
 }

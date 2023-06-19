@@ -96,3 +96,29 @@ main h4{
     transition: all 1s;
 }
 
+@media only screen and (max-width: 800px){
+
+    .container-slide{
+        width: 100vw;
+        height: 50vh;
+      
+    }
+    
+    .container-items {
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .item {
+        width: 100vw;
+        height: 50vh;
+    }
+    .item:first-child{
+        margin-left: -100%;
+    }
+
+    .item img {
+        width: 100vw;
+        height: 50vh;
+    }
+}
