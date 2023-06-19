@@ -10,7 +10,7 @@ const loadImages = ( images, container) => {
     images.forEach ( image => {
         container.innerHTML += `
             <div class="item">
-                <img src="${image.url}" alt="${image.desc}">
+                <img src="${'../' + image.url}" alt="${image.desc}">
             </div>
         `;
     });
