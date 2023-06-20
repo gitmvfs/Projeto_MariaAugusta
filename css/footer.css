@@ -3,7 +3,7 @@
 footer{
     margin-top: 50px;
     width: 100%;
-    background-color:#FFF2E3 ;
+    background-color:#F5F5F5 ;
     font-family: 'Inter';
     display: flex;
     flex-direction: column;
@@ -49,6 +49,6 @@ footer h4{
 }
 
 footer div{
-    background-color:#FFF2E3 ;
+    background-color:#F5F5F5 ;
 }
 

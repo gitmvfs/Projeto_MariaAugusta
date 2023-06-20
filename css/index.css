@@ -9,116 +9,80 @@ main{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    align-items: center
-
+    align-items: center;
+    overflow: hidden;
 
 }
 
 main h1{
     font-family: 'Cinzel', serif;
-    color: #8F0002;
+    color: #fff;
 }
 
 main h4{
     font-family: 'Inter',sans-serif;
-    font-weight: 300;
-}
-
-#apresentacao{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    margin-top: 80px;
-
 }
 
 
 
-
-.container-slide{
-    display: flex;
-    justify-content: space-between;
-    width: 50vw;
-    height: 50vh;
-    background-color: black;
-    margin: 10vh auto;
-    border-radius: 10px;
-    box-shadow: 0 20px 30px black;
-    border: 7px solid black;
-    margin-top: 35px;
-}
-
-.container-items {
+#banner{
     position: absolute;
-    display: flex;
-    width: 50vw;
-    height: 50vh;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 1px;
+    top: 72px;
+    width: 100vw;
+    height: calc(100vh - 72px);
+    z-index: -1;
+    background-color: black;
+    filter:brightness(0.6)
 }
-
-.item {
-    width: 50vw;
-    height: 50vh;
-    transition: all 1s;
-}
-.item:first-child{
-    margin-left: -100%;
-}
-
-.item img {
-    width: 50vw;
-    height: 50vh;
-    border-radius: 10px;
-}
-
-.action-button {
-    font: bold 30px sans-serif;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 50px;
-    color: #00000000;
-    user-select: none;
-    z-index: 1;
-}
-.action-button:hover {
-    color: white;
-    background-color: #00000055;
-    border-radius: 10px;
+#banner:hover{
+    opacity: 50%;
     cursor: pointer;
-    transition: all 1s;
 }
 
-@media only screen and (max-width: 800px){
 
-    .container-slide{
-        width: 100vw;
-        height: 50vh;
-      
-    }
-    
-    .container-items {
-        width: 100vw;
-        height: 50vh;
-    }
-    
-    .item {
-        width: 100vw;
-        height: 50vh;
-    }
-    .item:first-child{
-        margin-left: -100%;
-    }
-
-    .item img {
-        width: 100vw;
-        height: 50vh;
-    }
+#disc-banner h4{
+    font-family: 'Inter',sans-serif;
+    font-size: 24px;
+    color: #f3f3f3;
+    font-weight: 600;
+    max-width: 300px;
+    line-height: 1.4em;
+    position: relative;
+    top: calc(100vh - 572px);
+    left: calc(-50vw + 180px);
+    text-align: start;
 }
+
+#disc-banner{
+    position: absolute;
+    top: 72px;
+}
+
+#localizacao{
+    margin-top:100vh !important;
+
+}
+
+@media only screen and (max-width: 760px){
+
+    #banner{
+        height: calc(30vh + 72px);
+    }
+
+    #disc-banner h4{
+        top: calc(1vw );
+        left: 0;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.8em;
+        color: #f3f3f3;
+    }
+
+    #localizacao{
+        margin-top: calc(30vh + 72px + 150px)!important;
+    }
+
+}
+
+
+
